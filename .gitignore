@@ -1,1 +1,5 @@
 .pio
+include
+lib
+managed_components
+src/env.h

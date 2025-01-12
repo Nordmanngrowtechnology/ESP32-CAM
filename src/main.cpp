@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include "esp_camera.h"
 #include <WiFi.h>
+#include "env.h"
 
 //
 // WARNING!!! PSRAM IC required for UXGA resolution and high JPEG quality
@@ -37,8 +38,8 @@
 // ===========================
 // Enter your WiFi credentials
 // ===========================
-const char *ssid = "Geiles-Poloch";
-const char *password = "49191119315154769058";
+const char *ssid = WIFI_SSID;
+const char *password = WIFI_PASSWORD;
 
 void startCameraServer();
 void setupLedFlash(int pin);
