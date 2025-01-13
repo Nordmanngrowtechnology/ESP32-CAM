@@ -3,6 +3,7 @@
 #### Arduino Example
 https://github.com/espressif/arduino-esp32/blob/master/libraries/ESP32/examples/Camera/CameraWebServer/CameraWebServer.ino
 
+![IMG_2637.jpg](src/IMG_2637.jpg)
 ### Hardware
 - Board ESP32-CAM-MB adapter serial to USB
 - Board ESP32-CAM contain the ESP-32S chip
