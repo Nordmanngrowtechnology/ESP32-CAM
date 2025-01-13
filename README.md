@@ -12,6 +12,7 @@ https://github.com/espressif/arduino-esp32/blob/master/libraries/ESP32/examples/
 
 - OV2640 Cam
 - OV7670 Cam
+- GC2145 Cam
 - RHYX M21-45 Support no compression (RHYX M21-45 it is: GC2145 frame 1600 V x 1200 H 2MP) the trassive time is too long use only 
 
 | Image Sensor | Manufacture | Synonyms           | Megapixel | Frame-size  | fps |
