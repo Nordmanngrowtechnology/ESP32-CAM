@@ -13,7 +13,7 @@ https://github.com/espressif/arduino-esp32/blob/master/libraries/ESP32/examples/
 - OV2640 Cam
 - OV7670 Cam
 - GC2145 Cam
-- RHYX M21-45 Support no compression (RHYX M21-45 it is: GC2145 frame 1600 V x 1200 H 2MP) the trassive time is too long use only 
+- RHYX M21-45 Support no compression (RHYX M21-45 it is: GC2145 frame 1600 V x 1200 H 2MP) the transfer time is too long use only 
 
 | Image Sensor | Manufacture | Synonyms           | Megapixel | Frame-size  | fps |
 |--------------|-------------|--------------------|-----------|-------------|-----|
@@ -24,7 +24,10 @@ https://github.com/espressif/arduino-esp32/blob/master/libraries/ESP32/examples/
 #### RHYX M21-45
 Use the example from above and set config.pixel_format = PIXFORMAT_RGB565; // JPEG compression not supportet ignore errors in serial monitor use small resolution in video modus.
 
-##### Probleme
+##### Problems
+Sometimes it happens when you buy the ESP32-CAM board from Asia that it comes with a camera called **RHYX M21-45** - it is a GC2145 - this leads to problems because it has no integrated compression and sending in full resolution is too slow.
+
+##### DE: Erklärung
 Manchmal kommt es vor wen man aus Asien das ESP32-CAM Board kauft, dass dann eine Kamera mit der Bezeichnung **RHYX M21-45** dabei ist es handelt sich um eine GC2145 dies führt zu Problemen da sie keine integrierte Kompression hat und das Senden in voll auflösung zu langsam ist.
 
 ###### TODO
