@@ -30,5 +30,9 @@ Sometimes it happens when you buy the ESP32-CAM board from Asia that it comes wi
 ##### DE: Erklärung
 Manchmal kommt es vor wen man aus Asien das ESP32-CAM Board kauft, dass dann eine Kamera mit der Bezeichnung **RHYX M21-45** dabei ist es handelt sich um eine GC2145 dies führt zu Problemen da sie keine integrierte Kompression hat und das Senden in voll auflösung zu langsam ist.
 
+##### What is the [camera_index.h](src/camera_index.h)
+
+It contains the index.html page for the webserver output as .gz encoded array.
+
 ###### TODO
 Upgrade core for GC2145
