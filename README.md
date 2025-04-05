@@ -35,4 +35,4 @@ Manchmal kommt es vor wen man aus Asien das ESP32-CAM Board kauft, dass dann ein
 It contains the index.html page for the webserver output as .gz encoded array.
 
 ###### TODO
-Upgrade core for GC2145
+Upgrade core for GC2145 
